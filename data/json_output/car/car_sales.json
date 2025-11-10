@@ -1,0 +1,157 @@
+{
+  "source_path": "D:\\Project-Chatbot-RAG-VINAJAPANE\\Giai Đoạn 1 Nghiên Cứu Triển Khai\\TEST-CHATBOT-RAG-VERSION2\\data\\source_docs\\car\\car_sales.xlsx",
+  "source_filename": "car_sales.xlsx",
+  "data_type": "table_rows",
+  "content": [
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Aqua\",\"2018\",\"45000\",\"950000\",\"Hybrid\",\"Hatchback\",\"AT\",\"Osaka\",\"Low mileage, great fuel economy\",\"toyota-aqua-2018-osaka\",\"45000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Honda,\"N-BOX\",\"2019\",\"32000\",\"1100000\",\"Gasoline\",\"Kei Car\",\"AT\",\"Tokyo\",\"Very popular Kei, spacious interior\",\"honda-nbox-2019-tokyo\",\"32000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Suzuki,\"Spacia\",\"2020\",\"25000\",\"1050000\",\"Hybrid\",\"Kei Car\",\"AT\",\"Aichi\",\"Mild hybrid, excellent condition\",\"suzuki-spacia-2020-aichi\",\"25000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Daihatsu,\"Tanto\",\"2017\",\"58000\",\"880000\",\"Gasoline\",\"Kei Car\",\"AT\",\"Hyogo\",\"Pillarless door, easy access\",\"daihatsu-tanto-2017-hyogo\",\"58000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Nissan,\"Serena\",\"2018\",\"62000\",\"1850000\",\"Hybrid\",\"Minivan\",\"AT\",\"Chiba\",\"e-POWER system, 7-seater\",\"nissan-serena-2018-chiba\",\"62000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Prius\",\"2017\",\"71000\",\"1400000\",\"Hybrid\",\"Sedan\",\"AT\",\"Kanagawa\",\"Classic hybrid, reliable, Navi included\",\"toyota-prius-2017-kanagawa\",\"71000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Honda,\"Fit\",\"2019\",\"29000\",\"1200000\",\"Hybrid\",\"Hatchback\",\"AT\",\"Saitama\",\"Low mileage, one owner\",\"honda-fit-2019-saitama\",\"29000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Mazda,\"CX-5\",\"2018\",\"55000\",\"2100000\",\"Diesel\",\"SUV\",\"AT\",\"Fukuoka\",\"Clean diesel, powerful torque\",\"mazda-cx5-2018-fukuoka\",\"55000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Subaru,\"Impreza\",\"2016\",\"80000\",\"1300000\",\"Gasoline\",\"Hatchback\",\"AT\",\"Hokkaido\",\"4WD, great for snow\",\"subaru-impreza-2016-hokkaido\",\"80000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Voxy\",\"2019\",\"41000\",\"2300000\",\"Hybrid\",\"Minivan\",\"AT\",\"Osaka\",\"8-seater, perfect for family\",\"toyota-voxy-2019-osaka\",\"41000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Suzuki,\"Jimny\",\"2021\",\"15000\",\"1950000\",\"Gasoline\",\"SUV\",\"AT\",\"Tokyo\",\"Almost new, high demand\",\"suzuki-jimny-2021-tokyo\",\"15000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Daihatsu,\"Move Canbus\",\"2019\",\"35000\",\"1150000\",\"Gasoline\",\"Kei Car\",\"AT\",\"Aichi\",\"Cute design, two-tone color\",\"daihatsu-move-canbus-2019-aichi\",\"35000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Nissan,\"Note\",\"2020\",\"22000\",\"1450000\",\"Hybrid\",\"Hatchback\",\"AT\",\"Hyogo\",\"e-POWER, great acceleration\",\"nissan-note-2020-hyogo\",\"22000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Harrier\",\"2018\",\"48000\",\"2800000\",\"Gasoline\",\"SUV\",\"AT\",\"Chiba\",\"Luxury interior, panoramic roof\",\"toyota-harrier-2018-chiba\",\"48000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Honda,\"Vezel\",\"2017\",\"65000\",\"1600000\",\"Hybrid\",\"SUV\",\"AT\",\"Kanagawa\",\"Compact SUV, stylish design\",\"honda-vezel-2017-kanagawa\",\"65000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Alphard\",\"2019\",\"39000\",\"4500000\",\"Hybrid\",\"Minivan\",\"AT\",\"Osaka\",\"Executive Lounge seats, top grade\",\"toyota-alphard-2019-osaka\",\"39000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Suzuki,\"Swift\",\"2018\",\"52000\",\"980000\",\"Gasoline\",\"Hatchback\",\"AT\",\"Tokyo\",\"Sporty, fun to drive\",\"suzuki-swift-2018-tokyo\",\"52000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Mazda,\"Demio\",\"2017\",\"68000\",\"850000\",\"Diesel\",\"Hatchback\",\"AT\",\"Aichi\",\"Excellent fuel economy (diesel)\",\"mazda-demio-2017-aichi\",\"68000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Subaru,\"Forester\",\"2019\",\"43000\",\"2400000\",\"Hybrid\",\"SUV\",\"AT\",\"Saitama\",\"EyeSight safety system, AWD\",\"subaru-forester-2019-saitama\",\"43000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"RAV4\",\"2020\",\"31000\",\"3100000\",\"Hybrid\",\"SUV\",\"AT\",\"Fukuoka\",\"Adventure grade, very popular\",\"toyota-rav4-2020-fukuoka\",\"31000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Honda,\"Freed\",\"2018\",\"50000\",\"1550000\",\"Hybrid\",\"Minivan\",\"AT\",\"Osaka\",\"Compact minivan, easy to drive\",\"honda-freed-2018-osaka\",\"50000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Nissan,\"X-Trail\",\"2017\",\"75000\",\"1700000\",\"Hybrid\",\"SUV\",\"AT\",\"Tokyo\",\"4WD, waterproof seats\",\"nissan-xtrail-2017-tokyo\",\"75000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Yaris\",\"2021\",\"18000\",\"1500000\",\"Hybrid\",\"Hatchback\",\"AT\",\"Aichi\",\"Latest model, safety sense\",\"toyota-yaris-2021-aichi\",\"18000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Daihatsu,\"Taft\",\"2021\",\"12000\",\"1350000\",\"Gasoline\",\"Kei Car\",\"AT\",\"Hyogo\",\"Sky Feel Top (glass roof)\",\"daihatsu-taft-2021-hyogo\",\"12000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Mitsubishi,\"Delica D:5\",\"2018\",\"85000\",\"2500000\",\"Diesel\",\"Minivan\",\"AT\",\"Hokkaido\",\"Unique 4WD minivan, great for outdoors\",\"mitsubishi-delica-d5-2018-hokkaido\",\"85000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Sienta\",\"2019\",\"46000\",\"1650000\",\"Hybrid\",\"Minivan\",\"AT\",\"Chiba\",\"3-row seats, compact size\",\"toyota-sienta-2019-chiba\",\"46000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Honda,\"Stepwgn\",\"2017\",\"69000\",\"1900000\",\"Gasoline\",\"Minivan\",\"AT\",\"Kanagawa\",\"Waku Waku Gate, versatile\",\"honda-stepwgn-2017-kanagawa\",\"69000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Suzuki,\"Hustler\",\"2020\",\"28000\",\"1250000\",\"Hybrid\",\"Kei Car\",\"AT\",\"Osaka\",\"SUV-style Kei car, fun design\",\"suzuki-hustler-2020-osaka\",\"28000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Corolla Sport\",\"2019\",\"38000\",\"1800000\",\"Hybrid\",\"Hatchback\",\"AT\",\"Tokyo\",\"Sporty design, good handling\",\"toyota-corolla-sport-2019-tokyo\",\"38000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Mazda,\"CX-8\",\"2019\",\"51000\",\"2900000\",\"Diesel\",\"SUV\",\"AT\",\"Aichi\",\"3-row SUV, premium feel\",\"mazda-cx8-2019-aichi\",\"51000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"C-HR\",\"2018\",\"53000\",\"1750000\",\"Hybrid\",\"SUV\",\"AT\",\"Hyogo\",\"Unique styling, good on gas\",\"toyota-chr-2018-hyogo\",\"53000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Nissan,\"Dayz\",\"2020\",\"20000\",\"990000\",\"Gasoline\",\"Kei Car\",\"AT\",\"Saitama\",\"ProPILOT assist, advanced safety\",\"nissan-dayz-2020-saitama\",\"20000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Honda,\"CR-V\",\"2019\",\"40000\",\"2600000\",\"Gasoline\",\"SUV\",\"AT\",\"Fukuoka\",\"Spacious and comfortable SUV\",\"honda-crv-2019-fukuoka\",\"40000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Camry\",\"2018\",\"60000\",\"2200000\",\"Hybrid\",\"Sedan\",\"AT\",\"Osaka\",\"Stylish sedan, premium interior\",\"toyota-camry-2018-osaka\",\"60000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Subaru,\"Levorg\",\"2017\",\"82000\",\"1650000\",\"Gasoline\",\"Wagon\",\"AT\",\"Hokkaido\",\"Sport wagon, AWD performance\",\"subaru-levorg-2017-hokkaido\",\"82000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Daihatsu,\"Mira e:S\",\"2019\",\"33000\",\"750000\",\"Gasoline\",\"Kei Car\",\"AT\",\"Aichi\",\"Top class fuel efficiency for gasoline Kei\",\"daihatsu-mira-es-2019-aichi\",\"33000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Roomy\",\"2020\",\"26000\",\"1300000\",\"Gasoline\",\"Hatchback\",\"AT\",\"Chiba\",\"Compact but very spacious, sliding doors\",\"toyota-roomy-2020-chiba\",\"26000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Suzuki,\"Solio Bandit\",\"2019\",\"42000\",\"1400000\",\"Hybrid\",\"Hatchback\",\"AT\",\"Kanagawa\",\"Compact tall wagon, stylish design\",\"suzuki-solio-bandit-2019-kanagawa\",\"42000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Nissan,\"Kicks\",\"2021\",\"16000\",\"1900000\",\"Hybrid\",\"SUV\",\"AT\",\"Tokyo\",\"e-POWER only, very new condition\",\"nissan-kicks-2021-tokyo\",\"16000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Land Cruiser Prado\",\"2017\",\"95000\",\"3800000\",\"Diesel\",\"SUV\",\"AT\",\"Fukuoka\",\"Tough and reliable, great off-road\",\"toyota-lc-prado-2017-fukuoka\",\"95000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Honda,\"Shuttle\",\"2018\",\"58000\",\"1450000\",\"Hybrid\",\"Wagon\",\"AT\",\"Osaka\",\"Huge luggage space, based on Fit\",\"honda-shuttle-2018-osaka\",\"58000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Mazda,\"CX-30\",\"2020\",\"29000\",\"2300000\",\"Gasoline\",\"SUV\",\"AT\",\"Aichi\",\"Elegant design, high-quality interior\",\"mazda-cx30-2020-aichi\",\"29000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Passo\",\"2019\",\"36000\",\"880000\",\"Gasoline\",\"Hatchback\",\"AT\",\"Hyogo\",\"Simple and easy to drive compact car\",\"toyota-passo-2019-hyogo\",\"36000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Suzuki,\"Wagon R\",\"2018\",\"61000\",\"820000\",\"Hybrid\",\"Kei Car\",\"AT\",\"Saitama\",\"One of the original tall Kei cars, very practical\",\"suzuki-wagonr-2018-saitama\",\"61000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Mitsubishi,\"Outlander PHEV\",\"2018\",\"70000\",\"2400000\",\"PHEV\",\"SUV\",\"AT\",\"Tokyo\",\"Plug-in hybrid, can run on EV mode\",\"mitsubishi-outlander-2018-tokyo\",\"70000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"Crown\",\"2019\",\"48000\",\"3500000\",\"Hybrid\",\"Sedan\",\"AT\",\"Osaka\",\"Japanese luxury sedan, excellent comfort\",\"toyota-crown-2019-osaka\",\"48000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Honda,\"Civic\",\"2019\",\"44000\",\"2100000\",\"Gasoline\",\"Hatchback\",\"AT\",\"Chiba\",\"Turbo engine, sporty hatchback\",\"honda-civic-2019-chiba\",\"44000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Daihatsu,\"Rocky\",\"2020\",\"30000\",\"1700000\",\"Gasoline\",\"SUV\",\"AT\",\"Kanagawa\",\"Compact SUV, 1.0L Turbo engine\",\"daihatsu-rocky-2020-kanagawa\",\"30000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Nissan,\"Elgrand\",\"2017\",\"88000\",\"2200000\",\"Gasoline\",\"Minivan\",\"AT\",\"Fukuoka\",\"Luxury minivan, comfortable ride\",\"nissan-elgrand-2017-fukuoka\",\"88000\""
+    },
+    {
+      "brand,\"model\",\"year\",\"mileage_km\",\"price_yen\",\"fuel\",\"body_type\",\"transmission\",\"prefecture\",\"highlights\",\"url_slug\",\"former_owner_km\"": "Toyota,\"HiAce\",\"2019\",\"110000\",\"2800000\",\"Diesel\",\"Van\",\"AT\",\"Aichi\",\"Commercial van, huge capacity, durable\",\"toyota-hiace-2019-aichi\",\"110000\""
+    }
+  ]
+}
